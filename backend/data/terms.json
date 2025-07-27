@@ -1,0 +1,52 @@
+{
+  "terms": [
+    {
+      "id": 1,
+      "term": "Dividend Yield",
+      "category": "stocks",
+      "definition": "A financial ratio that shows how much a company pays out in dividends each year relative to its stock price. Calculated as annual dividends per share divided by price per share.",
+      "example": "If a stock is priced at $100 and pays $4 in annual dividends, its dividend yield is 4%.",
+      "difficulty": "beginner",
+      "relatedTerms": ["dividend", "yield", "income investing"]
+    },
+    {
+      "id": 2,
+      "term": "P/E Ratio",
+      "alternateNames": ["Price-to-Earnings Ratio", "PE Multiple"],
+      "category": "stocks",
+      "definition": "The ratio of a company's share price to its earnings per share. It indicates how much investors are willing to pay per dollar of earnings.",
+      "example": "A P/E ratio of 20 means investors are willing to pay $20 for every $1 of earnings.",
+      "difficulty": "beginner",
+      "relatedTerms": ["earnings", "valuation", "multiple"]
+    },
+    {
+      "id": 3,
+      "term": "Blockchain",
+      "category": "crypto",
+      "definition": "A distributed ledger technology that records transactions across many computers so that the record cannot be altered retroactively without altering all subsequent blocks.",
+      "example": "Bitcoin transactions are recorded on a blockchain, making them transparent and immutable.",
+      "difficulty": "intermediate",
+      "relatedTerms": ["distributed ledger", "mining", "hash"]
+    },
+    {
+      "id": 4,
+      "term": "Market Cap",
+      "alternateNames": ["Market Capitalization"],
+      "category": "stocks",
+      "definition": "The total market value of a company's outstanding shares. Calculated by multiplying the current stock price by the total number of outstanding shares.",
+      "example": "If a company has 1 million shares at $50 each, its market cap is $50 million.",
+      "difficulty": "beginner",
+      "relatedTerms": ["shares outstanding", "valuation", "company size"]
+    },
+    {
+      "id": 5,
+      "term": "ETF",
+      "alternateNames": ["Exchange-Traded Fund"],
+      "category": "etf",
+      "definition": "A type of investment fund that trades on stock exchanges like individual stocks but holds a diversified portfolio of assets like stocks, bonds, or commodities.",
+      "example": "SPY is an ETF that tracks the S&P 500 index, giving you exposure to 500 large US companies in one purchase.",
+      "difficulty": "beginner",
+      "relatedTerms": ["index fund", "mutual fund", "diversification"]
+    }
+  ]
+}
