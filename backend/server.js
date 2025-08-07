@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path')
 
 const app = express();
-app.use(cors);
-app.use(express.json);
+app.use(cors());
+app.use(express.json());
 
 const termsData = JSON.parse(
     fs.readFileSync(path.join(__dirname,'data','terms.json'), 'utf-8')
@@ -21,4 +21,13 @@ app.get('/api/terms/category/:category', (req,res) => {
         term => term.category.toLowerCase() === category.toLowerCase()
     );
     res.json(filteredTerms);
+});
+
+app.get('/api/test', (req, res) => {
+    res.json({message: 'Server is working!'});
+});
+
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });

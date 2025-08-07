@@ -47,6 +47,39 @@
       "example": "SPY is an ETF that tracks the S&P 500 index, giving you exposure to 500 large US companies in one purchase.",
       "difficulty": "beginner",
       "relatedTerms": ["index fund", "mutual fund", "diversification"]
+    },
+
+    {
+      "id": 6,
+      "term":"Altcoin",
+      "alternateNames":["altcoin"],
+      "category":"crypto",
+      "definition":"An altcoin refers to a cryptocurrency other than Bitcoin. Each has its own set of rules, properties, and specific use cases. Altcoins could be completely new technologies or forks of existing cryptocurrencies.",
+      "example":"Etherum (ETH) is an altcoin."
+    },
+
+    {
+      "id": 7,
+      "term":"Decentralized",
+      "category":"crypto",
+      "definition":"Decentralized is a word that is used to describe technologies that make use of distributed systems with the aim to provide increased security and redundancy, and to lessen a reliance on governing bodies and centralized intermediaries.",
+      "example":"When a particular person holds a chain of hotels as his business, he particularly focuses on using decentralised structures so that local hotel managers and assistants are empowered to make on-the-spot decisions to handle customers – problems, complaints and requirements."
+    },
+
+    {
+      "id": 8,
+      "term": "Stablecoin",
+      "category": "crypto",
+      "definition":"A stablecoin is a type of cryptocurrency that aims to maintain a stable value relative to a specified asset, a pool or basket of assets",
+      "example": "Tether (USDT) and TrueUSD (TUSD) are popular stablecoins backed by U.S. dollar reserves."
+    },
+
+    {
+      "id":9,
+      "term":"Fiat Currency",
+      "category":"General",
+      "definition":"A type of money that is not backed by a physical commodity, like gold or silver. value is derived from government decree and public trust in the issuing government and the stability of the economy.",
+      "example":"USD, Euros, Yen"
     }
   ]
 }
